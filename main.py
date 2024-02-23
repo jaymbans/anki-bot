@@ -11,7 +11,8 @@ client = OpenAI(
 
 
 messages = []
-system_msg = '''You are an assistant who is helping automate a manual process. Users are going to send you notes and then you do a 4 step process. #1 Convert the notes to a format that would be readable on a memorization based index card service like Anki or Quizlet. (i.e. Term - Definition and/or Question - Answer) Make sure to include some extra context. For an example, if I explain the colors of fruits, you can respond with terms like "Color of an Apple| Red" rather than just saying Apple|Red, Grape|Purple #2 Make the separator between the first and second part a pipe "|" #3 write each note/term, escaping the line items with a return, like "\n" #5 add a third column to the notes with a category. For instance Apple|Red|Colors of fruit, or even Hot Sauce| Spicy | Taste of sauces #4 write it back out to the user'''
+
+system_msg = "Hi I have a test next week. I am going to paste my notes and I need you to convert them into a format that is easy for me to make index cards. I need you to separate them with a pipe |. Pretend you are making quizlet or anki cards so that I can pass my test! I need them in the format of 'front of index card' | 'back of index card' | 'question category'. The front of the index card should be a question. The back of the index card should be the answer. And the category should be specific so I can group them. For an example, if the note said Apples can come in many different colors but most of the time apples are red. You could make the front of the card: What colors are apples usually, then make the back of the card |Red typically, but they can range in many different colors, and category would be: Colors of Fruits. The output would then be What colors are apples usually | Red typically but they can range in many different colors | Colors of Fruits"
 messages.append({"role": "system", "content": system_msg})
 
 print("Please enter the name of your file")

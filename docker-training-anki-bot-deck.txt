@@ -1,0 +1,7 @@
+
+What is Docker? | Docker is a way to package software so it can be run on any hardware | Docker Basics  
+What are the 3 main components of Docker? | Dockerfile - blueprint for building docker images, Image - template for running docker containers, Container - running process | Docker Basics  
+How can you share data across containers in Docker? | You can share data across containers using volume | Docker Usage  
+How do you upload your Docker file? | To upload your docker file, you use docker build -t username/appname | Docker Usage  
+How do you run a file in Docker? | To run a file, go onto the docker desktop and find the image name. From there you can run using Docker run imgtag | Docker Usage  
+How can you run a Docker container on a local port? | If you want to run it on a local port, you can use docker run -p localport:dockerport imagetag | Docker Usage
