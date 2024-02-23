@@ -5,7 +5,10 @@
 Anki Bot is an algorithm utilizing GPT 3.5 Turbo to convert notes into a text file that could be read and imported by a renowned space repition service Anki
 Anki is used primarily by medical students, but is also used by other high end degrees such as Law and Bio Sciences. 
 
-Spaced repetition has been proven to be an extremely effective way of memorizing, dating back to 1885 by a German psychologist named Herman Ebbinghaus.
+Spaced repetition has been proven to be an extremely effective way of memorizing, dating back to 1885 by a German psychologist named Herman Ebbinghaus. Its goal is to minimize the <a href="" target="_blank">Forgetting Curve</a>
+<br>
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/ForgettingCurve.svg/416px-ForgettingCurve.svg.png"/>
 
 ## Directions
 
